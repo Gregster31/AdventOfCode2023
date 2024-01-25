@@ -12,3 +12,4 @@ for line in f:
     line_num: int = int(f"{list_nums_in_current_line[0]}{list_nums_in_current_line[-1]}")
     total += line_num
 print(total)
+print("hello")
