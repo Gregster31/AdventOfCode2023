@@ -56,6 +56,7 @@ for line in f:
             for rchar in reversed(line):
                 if rchar.isdigit():
                     list_nums.append(int(rchar))
+                    break
                 else:
                     digit_letters += rchar
                     if len(digit_letters) >= 3:
